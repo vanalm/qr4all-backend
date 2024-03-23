@@ -38,7 +38,7 @@ def create_qr_code():
 #     dark="green",
 # )
     qrcode.save(
-        f"./{filename}", 
+        f"./static/qr-images/{filename}", 
         scale=2, 
         quiet_zone=border_color, 
         light=light_main,
